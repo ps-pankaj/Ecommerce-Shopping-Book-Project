@@ -1,0 +1,12 @@
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\bin\Debug\net6.0\Ecommerce_Project1.Models.deps.json
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\bin\Debug\net6.0\Ecommerce_Project1.Models.dll
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\bin\Debug\net6.0\Ecommerce_Project1.Models.pdb
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\obj\Debug\net6.0\Ecommerce_Project1.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\obj\Debug\net6.0\Ecommerce_Project1.Models.AssemblyInfoInputs.cache
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\obj\Debug\net6.0\Ecommerce_Project1.Models.AssemblyInfo.cs
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\obj\Debug\net6.0\Ecommerce_Project1.Models.csproj.CoreCompileInputs.cache
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\obj\Debug\net6.0\Ecommerce_Project1.Models.dll
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\obj\Debug\net6.0\refint\Ecommerce_Project1.Models.dll
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\obj\Debug\net6.0\Ecommerce_Project1.Models.pdb
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\obj\Debug\net6.0\ref\Ecommerce_Project1.Models.dll
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Models\obj\Debug\net6.0\Ecommerce_Project1.Models.csproj.AssemblyReference.cache

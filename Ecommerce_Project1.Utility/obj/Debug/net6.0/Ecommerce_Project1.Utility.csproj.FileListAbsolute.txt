@@ -1,0 +1,12 @@
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\bin\Debug\net6.0\Ecommerce_Project1.Utility.deps.json
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\bin\Debug\net6.0\Ecommerce_Project1.Utility.dll
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\bin\Debug\net6.0\Ecommerce_Project1.Utility.pdb
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\obj\Debug\net6.0\Ecommerce_Project1.Utility.GeneratedMSBuildEditorConfig.editorconfig
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\obj\Debug\net6.0\Ecommerce_Project1.Utility.AssemblyInfoInputs.cache
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\obj\Debug\net6.0\Ecommerce_Project1.Utility.AssemblyInfo.cs
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\obj\Debug\net6.0\Ecommerce_Project1.Utility.csproj.CoreCompileInputs.cache
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\obj\Debug\net6.0\Ecommerce_Project1.Utility.dll
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\obj\Debug\net6.0\refint\Ecommerce_Project1.Utility.dll
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\obj\Debug\net6.0\Ecommerce_Project1.Utility.pdb
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\obj\Debug\net6.0\ref\Ecommerce_Project1.Utility.dll
+F:\Asp.net Core project\Ecommerce_Project1\Ecommerce_Project1.Utility\obj\Debug\net6.0\Ecommerce_Project1.Utility.csproj.AssemblyReference.cache

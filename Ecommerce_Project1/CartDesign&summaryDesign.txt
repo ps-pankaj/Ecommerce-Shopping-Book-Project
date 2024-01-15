@@ -1,0 +1,191 @@
+<form method="post">
+    <br />
+    <div class="backgroundWhiteBorder">
+        <div class="container">
+            <div class="card">
+                <div class="card-header bg-dark text-light ml-0 row container">
+                    <div class="col-6">
+                        <i class="fa fa-shopping-cart"></i> &nbsp;
+                        Shopping Cart
+                    </div>
+                    <div class="col-6 text-right">
+                        <a class="btn btn-outline-info btn-sm">Continue Shopping</a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="d-none d-lg-block col-lg-1 text-center py-2">
+                            <img src="https://via.placeholder.com/150" class="rounded" width="100%" />
+                        </div>
+                        <div class="col-12 text-sm-center col-lg-6 text-lg-left">
+                            <h5><strong>--TITLE--</strong></h5>
+                            <p><small>--DESCRIPTION--</small></p>
+                        </div>
+                        <div class="col-12 text-sm-center col-lg-5 text-lg-right row">
+                            <div class="col-4 text-md-right" style="padding-top:5px;">
+                                <h6><strong>--Price --<span class="text-muted">x</span> --Count-- </strong></h6>
+                            </div>
+                            <div class="col-6 col-sm-4 col-lg-6">
+                                <div class="float-right mx-1">
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                                <div class="float-right mx-1">
+                                    <button type="submit" class="btn btn-danger">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-2 col-sm-4 col-lg-2 text-right">
+                                <button type="submit" class="btn btn-outline-danger">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    }
+                    <div class="row">
+                        <div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 pr-4">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between bg-light">
+                                    <span class="text-info"> Total (USD)</span>
+                                    <strong class="text-info">$ <span id="txtOrderTotal">--TOTAL--</span></strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="card-footer row">
+
+                        <div class="col-sm-12 col-lg-4 col-md-6 offset-lg-8 offset-md-6 ">
+
+                            <a class="btn btn-success form-control">Summary</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+_____________________________________________
+
+
+@model Ecommerce_Project1.Models.ViewModels.ShoppingCartVM
+<form method="post">
+    <br />
+    <div class="backgroundWhiteBorder">
+        <div class="container">
+            <div class="card">
+                <div class="card-header bg-dark text-light ml-0 row container">
+                    <div class="col-6">
+                        <i class="fa fa-shopping-cart"></i> &nbsp;
+                        Order Summary
+                    </div>
+                    <div class="col-6 text-right">
+                        <a asp-action="Index" class="btn btn-outline-info btn-sm">Back to Cart</a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="container rounded p-2">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 pb-4">
+                                <div class="row">
+                                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-info">PickUp Details:</span>
+                                    </h4>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Name</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input type="text" asp-for="OrderHeader.Name" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Phone</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input type="text" asp-for="OrderHeader.PhoneNumber" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Street Address</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input type="text" class="form-control" asp-for="OrderHeader.StreetAddress" />
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>City</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input type="text" asp-for="OrderHeader.City" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>State</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input type="text" asp-for="OrderHeader.State" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Postal Code</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input type="text" asp-for="OrderHeader.PostalCode" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-5 offset-lg-1">
+                                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="text-info">Order Summary:</span>
+                                </h4>
+                                <ul class="list-group mb-3">
+                                    @foreach (var list in Model.ListCart)
+                                    {
+
+                                        <li class="list-group-item d-flex justify-content-between">
+                                            <div>
+                                                <h6 class="my-0">@list.Product.Title</h6>
+                                                 <small class="text-muted">Quantity:@list.Count</small> 
+                                            </div>
+                                            <span class="text-muted">$ @(list.Price * list.Count)</span>
+                                        </li>
+                                    }
+
+                                    <li class="list-group-item d-flex justify-content-between bg-light">
+                                        <small class="text-info">Total (USD)</small>
+                                        <strong class="text-info">$ @Model.OrderHeader.OrderTotal</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-12 col-md-8 pt-2">
+                            <p style="color:maroon; font-size:14px;">Estimate Arrival Date: @DateTime.Now.AddDays(7).ToShortDateString() - @DateTime.Now.AddDays(14).ToShortDateString()</p>
+                        </div>
+                        <div class="col-12 col-md-4">                      
+                                                 
+                            <button type="submit" value="Place Order" class="btn btn-success form-control">Place Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
